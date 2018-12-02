@@ -31,14 +31,15 @@ h1 {
 }
 
 .application{
-  border: 2px solid purple;
+  border: 5px solid purple;
   padding: 4px;
   margin: 10px;
   width: 500px;
-  background-color: inherit;
+  font-weight: bold;
+  background-color: yellow;
   font-size: 20px
-  font-weight:bold;
   line-height: 3.5;
+  text-align: justify;
 }
 h4{
   font-weight: bolder;

@@ -12,3 +12,9 @@ body {
   background-size: cover;
   text-decoration-color: violet;
 }
+
+h1{
+  font-weight: bolder;
+  text-align: center;
+  color: dark blue;
+}

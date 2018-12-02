@@ -1,0 +1,14 @@
+html {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSPHla1C52QUV-sm-Vq81LZZtmrOyRYUGyh4Rlb-X0ZhUWllot);
+  background-repeat: repeat;
+  background-color: inherit;
+  background-size: auto;
+  font-display: auto;
+  text-decoration: inherit;
+}
+
+body {
+  line-height: 40px;
+  background-size: cover;
+  text-decoration-color: violet;
+}

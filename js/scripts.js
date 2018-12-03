@@ -6,12 +6,9 @@ var trySide = function() {
   var strA = a.toString();
   var strB = b.toString();
   var strC = c.toString();
-  var strRes;
-
-  document.getElementById("res").value = strRes.toString();
 
   if (strA === strB && strB === strC && strA === strC) {
-    //alert("equilateral");
+    alert("equilateral");
     strRes("equilateral");
   } else if (strA === strB || strB === strC || strA === strC) {
     alert("isosceles");

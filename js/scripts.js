@@ -1,11 +1,21 @@
-var sides=function(){
-var a=parseInt(prompt("enter length a"));
-var a=parseInt(prompt("enter length b"));
-var b=parseInt((prompt("enter length c"));
+var trySide = function() {
+  var a = document.getElementById('num0').value;
+  var b = document.getElementById('num1').value;
+  var c = document.getElementById('num2').value;
 
-if (a===integer b===integer c===integer) {
-  return
-} else {
-  alert("not an integer")
-}
-}
+  var strA = a.toString();
+  var strB = b.toString();
+  var strC = c.toString();
+  var strRes;
+
+  document.getElementById("res").value = strRes.toString();
+
+  if (strA === strB && strB === strC && strA === strC) {
+    //alert("equilateral");
+    strRes("equilateral");
+  } else if (strA === strB || strB === strC || strA === strC) {
+    alert("isosceles");
+  } else {
+    alert("scalene")
+  }
+};

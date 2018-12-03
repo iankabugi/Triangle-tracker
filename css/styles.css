@@ -42,3 +42,7 @@ h4{
   color: inherit;
   text-decoration-style:dotted;
 }
+
+#side1{
+  border-radius: 25px; 
+}

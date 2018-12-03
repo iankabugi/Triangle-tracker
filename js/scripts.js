@@ -11,7 +11,9 @@ var trySide = function() {
     alert("equilateral");
   } else if (strA === strB || strB === strC || strA === strC) {
     alert("isosceles");
-  } else {
+  } else if(strA !== strB && strB !== strC && strA !== strC){
     alert("scalene")
+  } else {
+    alert("it's not a triangle!")
   }
 };

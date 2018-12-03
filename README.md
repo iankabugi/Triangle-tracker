@@ -14,7 +14,7 @@ This is a simple web application to that determines types of triangles, it also 
 There were no bugs at the time of release,but if you should come across any,feel free tto reach me via my contacts below.
 ## Technologies Used
 This web  was typed in HTML, CSS for styling and the back end was javascript.
-##BDD
+## BDD
 *The sides should be strictly positive numbers
 *
 *

@@ -4,21 +4,17 @@
 ## Description
 This is a simple web application to that determines types of triangles, it also has a brief description of what triangles are.
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
+* clone this this repository using this link: https://github.com/iankabugi/Triangle-tracker.git
 
 ## Known Bugs
 There were no bugs at the time of release,but if you should come across any,feel free tto reach me via my contacts below.
 ## Technologies Used
 This web  was typed in HTML, CSS for styling and the back end was javascript.
 ## BDD
-*The sides should be strictly positive numbers
-*
-*
-
+  |BDD|input numbers|result|
+  |all sides equal|6,6,6|equilateral|
+  |two sides equal|6,6,4|isosceles|
+  |no sides equal to each other|4,5,6|
 ## Support and contact details
 If you should run into any problem, reach me through
 E-mail: iank299@gmail.com

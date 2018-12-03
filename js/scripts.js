@@ -9,7 +9,6 @@ var trySide = function() {
 
   if (strA === strB && strB === strC && strA === strC) {
     alert("equilateral");
-    strRes("equilateral");
   } else if (strA === strB || strB === strC || strA === strC) {
     alert("isosceles");
   } else {

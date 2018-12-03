@@ -43,6 +43,7 @@ h4{
   text-decoration-style:dotted;
 }
 
-#side1{
-  border-radius: 25px; 
+.triangles {
+  background-color: white;
+  background-blend-mode: lighten;
 }

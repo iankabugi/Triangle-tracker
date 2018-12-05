@@ -11,10 +11,12 @@ There were no bugs at the time of release,but if you should come across any,feel
 ## Technologies Used
 This web  was typed in HTML, CSS for styling and the back end was javascript.
 ## BDD
-  |BDD|input numbers|result|
-  |all sides equal|6,6,6|equilateral|
-  |two sides equal|6,6,4|isosceles|
-  |no sides equal to each other|4,5,6|
+  |Behaviour |Input numbers |Output result |
+  |----------|--------------|--------------|
+  |All sides equal|6,6,6    |Equilateral|
+  |Two sides equal|6,6,4    |Isosceles|
+  |No sides equal to each other|4,5,6|Scalene|
+  |Two sides are not equal to or greater than the third|4,2,9|Not a triangle|  
 ## Support and contact details
 If you should run into any problem, reach me through
 E-mail: iank299@gmail.com

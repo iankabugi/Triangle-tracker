@@ -1,19 +1,17 @@
 var trySide = function() {
-  var a = document.getElementById('num0').value;
-  var b = document.getElementById('num1').value;
-  var c = document.getElementById('num2').value;
+  var a = parseFloat(document.getElementById('num0').value);
+  var b = parseFloat(document.getElementById('num1').value);
+  var c = parseFloat(document.getElementById('num2').value);
 
-  var strA = a.toString();
-  var strB = b.toString();
-  var strC = c.toString();
-
-  if (strA === strB && strB === strC && strA === strC) {
+if ((a+b)<=c || (a+c)<=b ||(b+c)<=a) {
+    alert("not a triangle")
+  } else if (a === b && b === c && a === c) {
     alert("equilateral");
-  } else if (strA === strB || strB === strC || strA === strC) {
+  } else if (a === b || b === c || a === c) {
     alert("isosceles");
-  } else if(strA !== strB && strB !== strC && strA !== strC && strA+strB>strC && strA+strC>strB &&strB+strC>strA){
-    alert("scalene");
+  } else if (a !== b && b !== c && a !== c){
+  alert("scalene")
   } else {
-    alert("it's not a triangle!");
-  }
+  alert("it's not a triangle!")
+};
 };

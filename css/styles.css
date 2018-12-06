@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  line-height: 40px;
+  line-height: 30px;
   background-size: cover;
   text-decoration-color: violet;
 }
@@ -31,9 +31,12 @@ h1 {
 }
 
 .application{
-  border: 5px solid purple;
+  border: 5px solid black;
+  border-radius: 5px;
   padding: 4px;
-  background-color: yellow;
+  background-color: grey;
+  width: 500px;
+  line-height: 70px;
 
 }
 h4{
